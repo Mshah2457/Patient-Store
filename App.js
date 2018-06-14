@@ -4,9 +4,13 @@ import { StyleSheet, Text, View } from 'react-native';
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
+      <View style={ styles.hiddenContainer}>
         <Text>Open up App.js to start working on your app!</Text>
-        <Text>HI moniorjgrljgl</Text>
+        <Text>HI moni</Text>
+         <Text>HI dhruti</Text>
+         <Text>HI moni</Text>
+         <Text>HI dhruti</Text>
+         <Text>HI moni</Text>
          <Text>HI dhruti</Text>
       </View>
     );
@@ -20,4 +24,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+   hiddenContainer: {
+    top: window.height,
+    bottom: -window.height
+  }
 });
